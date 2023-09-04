@@ -5,5 +5,70 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #ff9900, #cc3300);
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom,#cc3300, #f79400);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "marks marks"
+        "snacks preview";
+        gap: 10px;
+    grid-template-rows: 100px auto;
+    grid-template-columns: 10% auto;
+}
+
+main div {
+    border: solid white;
+}
+
+#marks {
+    grid-area: marks;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#snacks {
+    grid-area: snacks;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#preview {
+    grid-area: preview;
+    display: grid;
+    grid-template-columns: auto 40%;
+    gap: 10px;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 10px;
+}
+
+#roll {
+    width: 50%;
+    height: 75px;
+}
+
+#row2 {
+    width: 75px;
+    height: 600px;
+}
+
+#icon {
+    margin: 10px 0 10px 10px;
+}
+
+#text {
+    margin: 10px 10px 10px 0;
 }
