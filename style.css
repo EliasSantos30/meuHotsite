@@ -57,31 +57,34 @@ main {
     justify-content: center;
 }
 
-#marcas {
+.container {
     width: 40%;
     height: 80%;
-    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #d3430050;
+}
+
+#marcas {
     display: grid;
     grid-template-areas: 
         'mc bk sb ph hb sbs';
-    gap: 6%;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 50px;
-    background-color: #d3430050;
 }
 
 /*marcas divs*/
 #marcas button {
-    width: 80%;
+    width: 56%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
     background: none;
-    justify-self: center;
     align-self: center;
+    justify-self: center;
 }
 
 #marcas button :hover {
