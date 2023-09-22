@@ -26,6 +26,9 @@
         }
 
         .lanches {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             border: solid;
         }
 
@@ -38,17 +41,41 @@
         section div {
             border: solid;
         }
+
+        img {
+            width: 100%;
+        }
+
+        button :hover {
+            transform: scale(1.1);
+        }
+
+        button {
+            border: none;
+            background: none;
+        }
+
+        .escolhas {
+            border: solid white;
+            width: 90%;
+            height: 90%;
+            display: grid;
+
+            border-radius: 50px;
+        }
     </style>
     <title>BK</title>
 </head>
 <body>
     <main>
         <div class="lanches">
-            <button><img src="" alt=""></button>
-            <button><img src="" alt=""></button>
-            <button><img src="" alt=""></button>
-            <button><img src="" alt=""></button>
-            <button><img src="" alt=""></button>
+            <div class="escolhas">
+                <button id="l1"><img src="lanches/cheeseburger.png" alt=""></button>
+                <button id="l2"><img src="lanches/Cheeseburger_duplo.png" alt=""></button>
+                <button id="l3"><img src="lanches/Chicken-Crispy-thumb.png" alt=""></button>
+                <button id="l4"><img src="lanches/Mega-Stacker-cheddar-3.0-thump.png" alt=""></button>
+                <button id="l5"><img src="lanches/whopper-duplo-thumb.png" alt=""></button>
+            </div>
         </div>
 
         <section>
