@@ -39,6 +39,18 @@ main div {
     width: 100%;
 }
 
+.logo {
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid 
+    grey;
+}
+
 #snacks {
     grid-area: snacks;
     display: flex;
