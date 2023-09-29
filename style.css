@@ -12,18 +12,12 @@ body {
 }
 
 main {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-areas: 
-        "header"
-        "snacks";
-        gap: 10px;
-    grid-template-rows: 12% auto;
+    width: 100%;
+    height: 100%;
 }
 
 #header {
-    grid-area: header;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +25,7 @@ main {
     border: none;
     border-bottom: solid white;
     background-color: white;
+    position: fixed;
 }
 
 #header img {
@@ -50,13 +45,6 @@ main {
     border-bottom-right-radius: 10px;
 }
 
-#snacks {
-    grid-area: snacks;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .container {
     width: 40%;
     height: 80%;
@@ -73,6 +61,7 @@ main {
     display: grid;
     grid-template-areas: 
         'mc bk sb ph hb sbs';
+    border: none;
 }
 
 /*marcas divs*/
@@ -113,4 +102,11 @@ main {
 
 #sbs {
     grid-area: sbs;
+}
+
+#snacks {
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    height: 80%;
 }
