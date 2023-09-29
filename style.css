@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 100ms;
+    transition: all 300ms;
 }
 
 body {
@@ -18,6 +18,7 @@ main {
 
 #header {
     height: 100px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,9 +77,18 @@ main {
     justify-self: center;
 }
 
-#marcas button :hover {
-    transform: scale(1.1);
+button img {
+    filter: grayscale(40%);
 }
+
+button :hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    transition: filter 300ms;
+    transition: transform 300ms;
+}
+
+button :
 
 #mc {
     grid-area: mc;
