@@ -1,0 +1,11 @@
+.bk {
+    scale: 1.1;
+}
+
+.bk img {
+    filter: grayscale(0%);
+}
+
+.bk :hover {
+    transform: scale(1);
+}
