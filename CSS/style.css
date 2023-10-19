@@ -6,10 +6,20 @@
 }
 
 body {
+    width: 100%;
     height: 100vh;
     background: linear-gradient(to bottom,#cc3300, #f79400);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -23,6 +33,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 2;
 }
 
 #logo {
@@ -61,7 +72,6 @@ a {
     gap: 20px;
     border-radius: 50px;
     background-color: #d3430050;
-    overflow: auto;
 }
 
 a img {
@@ -73,4 +83,43 @@ a :hover {
     filter: grayscale(0%);
     transition: filter 300ms;
     transition: transform 300ms;
+}
+
+@media screen and (max-width: 760px) {
+    .head {
+        height: 10%;
+    }
+
+    body {
+        height: 285vh;
+    }
+
+    .marcas {
+        margin-left: 10px;
+        width: 78px;
+        height: 70vh;
+        gap: 2%;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50vh;
+        left: 0;
+        transform: translate(0, -50%);
+        background-color: rgba(255, 255, 255, 0.116);
+    }
+
+    a {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo {
+        height: 8%;
+        top: -20px;
+        transform: translate(0, 0);
+    }
 }

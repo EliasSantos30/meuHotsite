@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/bk.css">
+    <link rel="stylesheet" href="CSS/select.css">
     <link rel="stylesheet" href="CSS/style.css">
     <title>InfoLanches</title>
 </head>
@@ -13,23 +13,116 @@
             <div id="logo"><img src="IMG/INFOlache500px.png" alt="LOGO"></div>
 
             <div class="marcas">
-                <a href="" class="bk"><img class="img" src="IMG/bk.png" alt="BK"></a>
-                <a href=""><img class="img" src="IMG/hb.png" alt="HB"></a>
-                <a href=""><img class="img" src="IMG/mc.png" alt="MC"></a>
-                <a href=""><img class="img" src="IMG/ph.png" alt="PH"></a>
-                <a href=""><img class="img" src="IMG/sb.png" alt="SB"></a>
-                <a href=""><img class="img" src="IMG/sbs.png" alt="SBS"></a>
+                <div id="select"><img class="img" src="IMG/bk.png" alt="BK"></div>
+                <a href="hb.html"><img class="img" src="IMG/hb.png" alt="HB"></a>
+                <a href="mc.html"><img class="img" src="IMG/mc.png" alt="MC"></a>
+                <a href="ph.html"><img class="img" src="IMG/ph.png" alt="PH"></a>
+                <a href="sb.html"><img class="img" src="IMG/sb.png" alt="SB"></a>
+                <a href="sbs.html"><img class="img" src="IMG/sbs.png" alt="SBS"></a>
             </div>
 
             <div id="mais"><img src="IMG/mais.png" alt="mais"></div>
         </div>
-    </main>
-    <script>
-        const logo = document.getElementById("logo");
+        
+        <section class="informacoes">
+            <div class="lanches">
+                <div class="img"><img src="IMG/subwayClub.png" alt=""></div>
+                <h3>Subway Club</h3>
+                <div class="info">
+                    <p class="info">Ingredientes: 
+                         Peito de peru, presunto, bacon,
+                         queijo, vegetais e molho.
+                    </p>
+                    <div class="preco">
+                        <p>
+                            <strong>Preço: R$ R$ 33,70</strong> 
+                            <br>Varia por região.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-        logo.addEventListener('click', function() {
-            window.location.pathname = '/index.html';
-        })
-    </script>
+            <div class="lanches">
+                <div class="img"><img src="IMG/italianBmt.png" alt=""></div>
+                <h3>Italian B.M.T</h3>
+                <div class="info">
+                    <p class="info">Ingredientes: Salame, pepperoni, presunto,
+                        queijo, vegetais e molho.
+                    </p>
+                    <div class="preco">
+                        <p>
+                            <strong>Preço: R$ 45,00 </strong> 
+                            <br>Varia por região.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lanches">
+                <div class="img"><img src="IMG/Frangoteriyaki.webp " alt=""></div>
+                <h3>Frango Teriyaki</h3>
+                <div class="info">
+                    <p class="info">Ingredientes:  Frango teriyaki, queijo, vegetais 
+                        e molho teriyaki.
+                    </p>
+                    <div class="preco">
+
+                        <p>
+                            <strong>Preço: R$ 24,50</strong> 
+                            <br>Varia por região.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lanches">
+                <div class="img"><img src="IMG/Vegetariano.jpg" alt=""></div>
+                <h3>Vegetariano</h3>
+                <div class="info">
+                    <p class="info">Ingredientes:Diversos vegetais, queijo e molho.
+                        Pode ser personalizado conforme as preferências.
+                        .</p>
+                    <div class="preco">
+                        <p>
+                            <strong>Preço: R$ 23,95</strong> 
+                            <br>Varia por quantidade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lanches">
+                <div class="img"><img src="IMG/Frangochipotlesouthwest.jpg" alt=""></div>
+                <h3>Frango Chipotle Southwest</h3>
+                <div class="info">
+                    <p class="info">Ingredientes:Frango grelhado, queijo,
+                         vegetais e molho chipotle southwest.
+                    </p>
+                    <div class="preco">
+                        <p>
+                            <strong>Preço: R$ 49,90</strong> 
+                            <br>Varia por região.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lanches">
+                <div class="img"><img src="IMG/Atum.jfif" alt=""></div>
+                <h3>Atum</h3>
+                <div class="info">
+                    <p class="info">Ingredientes: Atum, queijo, vegetais e molho.
+                    </p>
+                    <div class="preco">
+                        <p>
+                            <strong>Preço:R$ 23,90 </strong> 
+                            <br>Varia por região.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="JS/script.js"> </script>
 </body>
 </html>
