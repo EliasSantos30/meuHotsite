@@ -2,7 +2,7 @@ const logo = document.getElementById("logo");
 const mais = document.getElementById("mais");
 
 logo.addEventListener('click', function() {
-    window.location.pathname = 'hotsite-main/index.html';
+    window.location.href = 'index.html';
 })
 
 mais.addEventListener('click', function() {

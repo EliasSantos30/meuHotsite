@@ -15,15 +15,15 @@
 
 #escolhas {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 110px 110px;
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 180px 180px;
     gap: 20%;
     justify-content: center;
 }
 
 #caixinhas {
 
-    background-color: brown;
+    background-color: rgb(165, 42, 42);
     border: double white;
     border-radius: 10px;
     display: flex;
