@@ -53,4 +53,8 @@ h6 {
     body {
         overflow: hidden;
     }
+    h6{
+        color: #ffffff;
+        text-align: center;
+    }
 }

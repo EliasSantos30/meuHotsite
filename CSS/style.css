@@ -127,7 +127,12 @@ a :hover {
 
     #logo {
         height: 8%;
-        top: -20px;
+        top: 30px;
         transform: translate(0, 0);
+    }
+    #mais {
+        width: 35px;
+        position: absolute;
+        right: 15px;
     }
 }
