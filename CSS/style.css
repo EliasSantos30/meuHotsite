@@ -44,7 +44,7 @@ main {
     top: 45px;
     transform: translate(0, -50%);
     /*caixinhas*/
-    background: linear-gradient(to bottom, #f79400,#cc3300);
+    background: linear-gradient(to bottom, #f79400d5,#cc3300e5);
     border: double white;
     border-radius: 10px;
     display: flex;
